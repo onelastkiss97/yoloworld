@@ -1,0 +1,6 @@
+# Install with --target openworld_3/vendor --no-deps; keep the training environment intact.
+onnx==1.14.1
+protobuf==3.20.3
+tensorrt-cu11==10.2.0.post1
+tensorrt-cu11-bindings==10.2.0.post1
+tensorrt-cu11-libs==10.2.0.post1

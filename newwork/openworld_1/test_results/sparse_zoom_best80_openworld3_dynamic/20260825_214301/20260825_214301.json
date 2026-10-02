@@ -1,0 +1,1 @@
+{"coco/multirotor drone_precision": 0.6, "coco/helicopter_precision": 0.596, "coco/fixed-wing aircraft_precision": 0.063, "coco/bbox_mAP": 0.419, "coco/bbox_mAP_50": 0.677, "coco/bbox_mAP_75": 0.436, "coco/bbox_mAP_s": 0.432, "coco/bbox_mAP_m": 0.358, "coco/bbox_mAP_l": 0.441, "data_time": 0.0038660568977469827, "time": 0.05231718264663143}

@@ -1,0 +1,22 @@
+{
+  "seed": 20260912,
+  "novel_unique_images": 10,
+  "novel_unique_instances": 10,
+  "support": [
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--300-_jpg.rf.e2736af3c5726244152596e09b7aa4fe.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--246-_jpg.rf.9e86a73fa5e122ad6c40c01033b32f4a.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--272-_jpg.rf.a4180a9277647c7b468137aabb2978b6.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--147-_jpg.rf.547f3ca1227753f3c99f903da076d652.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--200-_jpg.rf.5e9e1a45e3ceec64063205d7b9edbc78.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--225-_jpg.rf.cb154cf89f641ff9e8cbc189864ad572.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--277-_jpg.rf.bb145ed4512c2458c903cd801b3ec393.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--133-_jpg.rf.f358da425ffabfaf0d1d50e75ab17afb.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--194-_jpg.rf.085a9e4b2fff363b94df70038abf2ba5.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--206-_jpg.rf.ba6adac30dcd8dbbb3beaf3e066f2634.jpg"
+  ],
+  "base_replay_unique_images": 40,
+  "support_repetitions": 4,
+  "validation": "full original val; extra novel validation labels authorized",
+  "test": "unchanged original 938-image mixed-class test",
+  "sample_selection": "seeded random among one-instance images; pixel/dHash deduplication only"
+}

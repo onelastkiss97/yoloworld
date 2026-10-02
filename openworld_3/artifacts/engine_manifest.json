@@ -1,0 +1,17 @@
+{
+  "checkpoint_sha256": "b85c66b1ff7803a87837e9d8fb90ac8e9fd7bbfdd81678f32ce62336419cbd0c",
+  "prompts": [
+    "a multirotor drone",
+    "a helicopter",
+    "a fixed-wing aircraft"
+  ],
+  "input_shape": [
+    1,
+    3,
+    1280,
+    1280
+  ],
+  "tensorrt": "10.2.0.post1",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "classifier_folded": true
+}

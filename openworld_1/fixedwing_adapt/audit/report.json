@@ -1,0 +1,4778 @@
+{
+  "splits": {
+    "train": {
+      "images": 6712,
+      "boxes_by_class": {
+        "2": 467,
+        "1": 2220,
+        "0": 4405
+      },
+      "fixedwing_images": 443,
+      "fixedwing_area_quantiles": [
+        461.99999999999994,
+        14163.0,
+        39474.00000000001,
+        107417.5,
+        1460368.0000000002
+      ]
+    },
+    "val": {
+      "images": 1516,
+      "boxes_by_class": {
+        "2": 55,
+        "1": 666,
+        "0": 977
+      },
+      "fixedwing_images": 55,
+      "fixedwing_area_quantiles": [
+        2708.9999999999995,
+        28910.0,
+        67308.0,
+        194759.0,
+        644589.0
+      ]
+    },
+    "test": {
+      "images": 938,
+      "boxes_by_class": {
+        "2": 56,
+        "1": 333,
+        "0": 608
+      },
+      "fixedwing_images": 56,
+      "fixedwing_area_quantiles": [
+        8610.0,
+        28363.999999999996,
+        106990.0,
+        274890.0,
+        778910.0
+      ]
+    }
+  },
+  "exact_cross_split_duplicates": [
+    [
+      {
+        "split": "train",
+        "name": "helicopter_5255.jpg"
+      },
+      {
+        "split": "val",
+        "name": "helicopter_0113.png"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "helicopter_5762.jpg"
+      },
+      {
+        "split": "val",
+        "name": "helicopter_1370.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_1010_jpg.rf.60684f7c0342d5b26707eb6711dfd5b8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_1010_JPEG.rf.9f99e10fb081b1f81bcef0176de30596.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_109_jpg.rf.04058fe2f9e85d715c5215646df71dfa.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_109_JPEG.rf.dc8dbb0a026afc24e1e1793a4cf1e9ba.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_116_JPEG.rf.3054030277737f86ccabfadc04ac93c6.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_116_jpg.rf.c69ce897b01eacbd29db00143cf0a3c6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_116_JPEG.rf.a0843b64b4484b7cb14680cedab6fb7f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_11_jpg.rf.9988c0724bc1c4ec661cbb06759f93c6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_11_JPEG.rf.398bfd0dbb66b921337272cb8e4ac0bb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_135_jpg.rf.575b7172f6548c3aa9b9452d4da0c816.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_135_JPEG.rf.2fb0ca3f26b59b4a1129ef429343c538.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_143_jpg.rf.1f0ee8a62cc82c0080da154360bac49c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_143_JPEG.rf.001e1de5c22179687b1aed16b0896e0d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_146_JPEG.rf.0d431a365df3dcc6c3270bca4a51da5f.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_146_jpg.rf.04f924da5f0d0b29f9301afbe59cab63.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_146_JPEG.rf.b1d40d023f2adcf9502471a5c6d4a354.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_150_jpg.rf.85527b94e252106081a390d6fd342918.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_150_JPEG.rf.2a95e15e34c5f7930f101408da9b42c0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_155_JPEG.rf.4e92c272037bc27e2aeafb9ba93b8070.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_155_jpg.rf.e2eb5fd8b877ccaf9141993ad67148e8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_155_JPEG.rf.646993a434f34492aa555d96789a3a7a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_167_JPEG.rf.fd7e5e9bcd4fa82dda1a09e787374896.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_167_jpg.rf.e1a5e7ff23570dd2b368b2314111f250.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_167_JPEG.rf.cab88ff7a595da4fc254e1403fb33179.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_174_jpg.rf.736af246ece638f8575516978010031e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_174_JPEG.rf.1d688f0740f39c1e4cf1f43fa9c99c56.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_190_JPEG.rf.c276a5cdc355d5c10665e248b2c174cc.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_190_jpg.rf.8ee102702b394949c65fee3aae0bda52.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_190_JPEG.rf.9249e2308140b23fe660466683688f4e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_198_jpg.rf.74533fef833b71273dd1871baba67419.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_198_JPEG.rf.07a8e4a4416ceb4d8c91fa3cfe4e2e12.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_227_JPEG.rf.2e35cec8172d7a01443701b68cd2c98e.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_227_jpg.rf.676669b0d8e8559a047fcda4c9c6689d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_227_JPEG.rf.4700ade1ec1b0a9edc7d20fb68156ffe.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_228_JPEG.rf.4d90fb1fb686a353aebbcc5e0e578c60.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_228_jpg.rf.ee9c5523997825d60e81fdfacbf86c2f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_228_JPEG.rf.fce8ff1dd5d5c0715ae76015d606d4cf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_23_JPEG.rf.64a25c00f2eb5b7bfd5d93e618d6bf90.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_23_jpg.rf.e6437494fe789c8177da50d37bea7045.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_23_JPEG.rf.673529a954c112caadf5534120b22ecf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_242_jpg.rf.4e4ace15c7b2c9a1993b3c9812a71619.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_242_JPEG.rf.095158f6cd9fd4576e36901eec589adf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_263_JPEG.rf.0f120c50da04cfc481c370ce10155ed4.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_263_jpg.rf.9f5d9a0db82618b590c744c2e775f8ed.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_263_JPEG.rf.3152c7aa96c458f350fe913ac2b27e08.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_267_JPEG.rf.86b2af7576ce52108b3b1ce9263b3ea6.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_267_jpg.rf.7e7833cb1f2f1cdb1228c30884957163.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_267_JPEG.rf.320cf21d0ee86ba3a19e93a20a36634c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_279_jpg.rf.b0084c82570731791081fec29cea5af9.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_279_JPEG.rf.2e902d387055c4ad0f1086451e4de1c0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_298_JPEG.rf.2d45dd11b561491df68d54b13cbe7a8a.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_298_jpg.rf.d1384d49f22b09ca972b99ec435a7354.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_298_JPEG.rf.b23e21709b8c439c00a66882c2997d84.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_299_JPEG.rf.642c65cec4c82ff5d2ae2a9b26d7e56c.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_299_jpg.rf.3f8958f38bcb1c1a4bd4329edcafde6f.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_299_JPEG.rf.eee7e13885ab42e14c2086ff9a411b9a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_304_jpg.rf.273ad534b10c574641bc28b1f46612ab.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_304_JPEG.rf.9d3e26a6cc270123ed0cc4d398dad1ed.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_327_jpg.rf.c83ca035d9d0d9405c406fa91b5122c0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_327_JPEG.rf.df27b4b6d9e31f15dc4109818aa997b6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_32_JPEG.rf.f2192311de7c0d7bd2509fb86f91425a.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_32_jpg.rf.0aa175a48784a992418761632e2c34a0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_32_JPEG.rf.db8b5476f8c274cba277972248ef295c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_337_jpg.rf.cc3a2e6c62824a771690c9f96a7c2c3e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_337_JPEG.rf.e130377be3d1b0c76af92f4c9b9bb85d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_339_JPEG.rf.daa29741c4c88cbccd8754be9624dc60.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_339_jpg.rf.2a0ce17cf1a1927b63a2ec1de1fee624.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_339_JPEG.rf.65dc4fb979228dda65dda33742c5e68f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_42_JPEG.rf.5bf3d0c3a1f7817daa1d878cabaee3ce.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_42_jpg.rf.c4d26feb198d69c137c5973fb4d63512.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_42_JPEG.rf.1710ec7608267aea50d270ad40ffd685.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_50_JPEG.rf.6c672a96785e8b2c504baa896f56689d.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_50_jpg.rf.c41e1ca3828a9502b04cdbc17698685d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_50_JPEG.rf.81b7bc7ea3fb367b4ac39fab410098a0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_56_JPEG.rf.fa2d3089f153c88ac2e617452186471e.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_56_jpg.rf.12dec3ada814dfc0be0e8fbbb1c3ca56.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_56_JPEG.rf.f97ca12df80f145bc479d5833f765f64.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_59_JPEG.rf.eca5e661e381a7d7f4939465ad83bb73.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_59_jpg.rf.b525d84de9db781587f07662168f602e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_59_JPEG.rf.4411485e05d81a03eb4d841c43dda733.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_60_JPEG.rf.b54253170555bd3e8bfa3ec279f3bf9b.jpg"
+      },
+      {
+        "split": "train",
+        "name": "multirotor_60_jpg.rf.76d12169a6312c45387c11c2e4998152.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_60_JPEG.rf.8f088c47b68717a6eadb3f9508a5236c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_69_jpg.rf.54cd50f897ec0efa9860de21cb203be7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_69_JPEG.rf.626ac70b757d5f9442804ec3e6ebd3b3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_81_jpg.rf.75decf449cf68845bc9781aed5b6946d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_81_JPEG.rf.e1405c3ff1e06e1f0b9fedcbf7623622.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_81_JPEG.rf.ed3ad1b2591475d34e00603d959d63e5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_82_jpg.rf.19ca1f4177e2d4662229272429ed6a42.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_82_JPEG.rf.ae9a6ec4a2a5705e42bf5952cfe5117c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_88_jpg.rf.6cbe3692eebff07b3b3ef66eebe767f2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_88_JPEG.rf.4665e020d0ec108697597a7bc58cb9be.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_92_jpg.rf.a2abab95fbfdac318d401e4e2f5ca308.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_92_JPEG.rf.80aaaee1bea41d7bfa2dcd0d4f31a5bb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_bangkok-thailand-november-14-2016-260nw-521776258_jpg.rf.c1f3c9e361d367c5ded619e866cdea5e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_bangkok-thailand-november-14-2016-260nw-521776258_jpg.rf.6f8bf6e9b466b0aac10c63929657a975.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_big-narrows-poudre-canyon-co-260nw-397931353_jpg.rf.f53a8748d00932d4dbd159ca128dd881.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_big-narrows-poudre-canyon-co-260nw-397931353_jpg.rf.5458c9841f939fedf18c02d44e2b0f8d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_bologna-italy-may-3-2014-260nw-205130413_jpg.rf.2731da846db5830cc648a868f222b9d4.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_bologna-italy-may-3-2014-260nw-205130413_jpg.rf.e8d0ef0feb00a39544cfea6674aae39b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-625760876_jpg.rf.881ec0c76d535b2862fccd0df50533a1.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-625760876_jpg.rf.9a3e2e4befaa9145bbb246b62e892f0d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-625760894_jpg.rf.4f4d2eb24635beb607fceda8224c6217.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-625760894_jpg.rf.34da91f08a58e55371996c1e1168c960.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-633128882_jpg.rf.68e4ff9108c24d1a72bb1cac4ac615e8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_chanburi-thailand-11-april-2017-260nw-633128882_jpg.rf.f7cd0de89e251aeabbeb333d82fc1bce.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_circa-december-23-2015-white-260nw-354366167_jpg.rf.67e8cda70e73ae5c4dbcb2a4dea1c445.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_circa-december-23-2015-white-260nw-354366167_jpg.rf.0e033ca5083fd9068c333c52697c3741.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_circa-february-1-2016-dji-260nw-370639613_jpg.rf.c03e9822833f5e700819cc9c9dce85e8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_circa-february-1-2016-dji-260nw-370639613_jpg.rf.e74c1f7ed4fef1e98e3b51c50f662484.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_circa-january-6-2016-white-260nw-359229728_jpg.rf.3305174d19db8755b5763a911b5d3842.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_circa-january-6-2016-white-260nw-359229728_jpg.rf.501327f7078a1c70ef1b5e295d4bfaa9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_estonia-tallinn-june-15-2018-260nw-1113744074_jpg.rf.3bb44d1de82d0315345ce13228c5fb88.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_estonia-tallinn-june-15-2018-260nw-1113744074_jpg.rf.2a03f65596e84bec097af8583b969278.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_flying-drone-near-amazing-waterfall-260nw-1132738238_jpg.rf.35c31f6be9b405d34a06f1536dff3fb2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_flying-drone-near-amazing-waterfall-260nw-1132738238_jpg.rf.23e1b5858396ca82a8b25149b4ab1255.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name20_JPEG.rf.d4f53e54275f2271fe08358d181ec981.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name20_JPEG.rf.24fcca6ea4c567dbe0cbce4715cd3b26.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name28_JPEG.rf.283b4be3a5edd4b15f00ee53fd16fb8c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name28_JPEG.rf.ef68c9f930951ec2a06e2e58f3ade0d9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name2_JPEG.rf.78617fbfa2113d069c9c9256dfe08e25.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name2_JPEG.rf.69b96582d6d35b6c858843a1cb705f7a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name30_JPEG.rf.73db1741be1a63352b8c2ef1161833f2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name30_JPEG.rf.2d9d22763f29a8f826a6d1c90831bce0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name33_JPEG.rf.b233df50b6e6c5816b467a47bd79297b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name33_JPEG.rf.b662dca63964e7f947876f81a367e1d4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name34_JPEG.rf.a52517a8945e18cec2d51c3938f7720c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_name34_JPEG.rf.786e742f892583bc1b4957393b0da65a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name4_JPEG.rf.3f7cf3bb0b045f4bb0cfa7290a883fe5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_name4_JPEG.rf.fc023403008c0328f17d77d046fef388.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name5_JPEG.rf.716ed5b339f01bc2342469f4021beb89.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name5_JPEG.rf.917b5381939cf6f9005e1f2bfbb71991.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name62_JPEG.rf.719210c64f3f5712e8203c0e83c1fc95.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_name62_JPEG.rf.2cec6bc301d91cff4f25edddd22942cd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name6_JPEG.rf.dc25033605639eda73edcaa7bc64ad08.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name6_JPEG.rf.00c76e48aa4ceca48597d81f639e0522.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_name7_JPEG.rf.b2f132b1d6737f587f2c38408e39b764.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_name7_JPEG.rf.430326d616cf11467d6c768fb41f6751.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video11_JPEG.rf.95d73b6cb3948fac634394594aa7077f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video11_JPEG.rf.d4f656357f6c392a5b665f0d4fceac69.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video12_JPEG.rf.b9052d764113a016a1c451e352de98c2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video12_JPEG.rf.68ee3e4f4c6229619d408e0c0ad4e441.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video1358_JPEG.rf.9f8de347e436a91d9103f8e1236f4573.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video1358_JPEG.rf.6dc71f35ea404788f94cc799584d09a7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video1362_JPEG.rf.23119e2a5ae606eaca12c4b1a0fa324b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video1362_JPEG.rf.ac71f04bc930af0da0144d6fe214c742.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video1370_JPEG.rf.01d1e4c21cc209f175b9ced96555177e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video1370_JPEG.rf.ffdce4c8493d0d2d084c97c58667e7bc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video1376_JPEG.rf.ffe329a6b7fab427996d4dd135c9fb50.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video1376_JPEG.rf.9df06d0d4ba41fd2f277a5adaebe89f2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_101_JPEG.rf.d96dbd89a3166e20422ad671044c8969.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_101_JPEG.rf.bef66b6cb2182ba65a52438d10a11967.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_102_JPEG.rf.4a7f876e88de97cd60414af911ded8ff.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_102_JPEG.rf.e8cbe69f89eda1b3c20456192a1051cc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_106_JPEG.rf.d1373ee3b69ccb6bc9b156b0656a041b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_106_JPEG.rf.e926c17454c2f0437baada1a373ee219.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_107_JPEG.rf.fcecf75575d517760a455a4c87ce731d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_107_JPEG.rf.5cb3ca8f2a04772b49fadc4c273fc5b2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_108_JPEG.rf.c36986fdf0ed92f66971d1cf69248d1d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_108_JPEG.rf.e238f59af965d2a3a94a25461016482c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_110_JPEG.rf.728c410081b5e6dbadd985b196e5791c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_110_JPEG.rf.573680446ab144236549929c45506212.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_114_JPEG.rf.d32c26114689d40dc53f38b61c955340.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_114_JPEG.rf.fa6e0683da93113a5747474cc37ecaaf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_116_JPEG.rf.403bc35848ab3af82f1903a890fe3c28.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_116_JPEG.rf.6d9c521a94d51618bec6cd6a05526271.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_117_JPEG.rf.a527b44f30f2f0b0d6f2dc428edb3ca1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_117_JPEG.rf.5c55e1d1df292f8a93388d33be928424.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_118_JPEG.rf.55169315bbe1f1336c9fa7bf12b77acb.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_118_JPEG.rf.51f9281a2d3c3fdbc3b99d7363d345c9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_119_JPEG.rf.2890f17c4b3f72b95c717f0a0bd8f29b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_119_JPEG.rf.d5871da8936ab0dccc96d4a6b0a2b119.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_120_JPEG.rf.1f34999468b3022bf97285334d28c98e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_120_JPEG.rf.f04577c8753eecf52818401029214776.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_123_JPEG.rf.dbff80bd0fff5c0654878ef47157337b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_123_JPEG.rf.5404968058843709a90c63ac8384a21a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_125_JPEG.rf.af51df862c09e2b61abeb7346c5fd15b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_125_JPEG.rf.f6be1df8e3d7dd0d0fd385aafb5f1aea.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_127_JPEG.rf.24fc858236c96a35c4499351b62d6db2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_127_JPEG.rf.d2e4d49f27260133859cd4cabac7c751.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_128_JPEG.rf.a0627ce1a0bf0afdfb5b17afd222258d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_128_JPEG.rf.ca9f5e1ed77fa28c0d81d9fc03cc2fd0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_129_JPEG.rf.481aba99f1278b41368e2bdd67553c02.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_129_JPEG.rf.2468b8215ed1455d932057894d4415aa.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_130_JPEG.rf.7d94455869ed3ec80f9db71c59a10795.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_130_JPEG.rf.cf2de5de4eb1fc8424a1e38dc8745841.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_132_JPEG.rf.e8905bc9fa296d17a5692154526cf6dc.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_132_JPEG.rf.20568ee4da39ae73879b8a1e83a6c44e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_133_JPEG.rf.aabafe26c3480971821788e325358031.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_133_JPEG.rf.90e25ad6834c4aca8bd94b067c36109b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_134_JPEG.rf.8f33e0c00c24b1ed688645eb724c1ca7.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_134_JPEG.rf.a13bb532e547688ba62863b578d58132.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_139_JPEG.rf.27c31b4be4cb466b2668d51ba71a391e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_139_JPEG.rf.7f6194ed92079cea9bbdeba8c3ab265f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_140_JPEG.rf.1abf2974ab3ff323225246a3b53154c5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_140_JPEG.rf.bcf74fb073e8fbdb7860cdf48eae9a4e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_148_JPEG.rf.007ddbb938c710b9cf322113a2fcd42e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_148_JPEG.rf.5ebdfd79fb358285eaacb5dc046b1503.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_152_JPEG.rf.28dd9bc508078fddf8f02eeb6c296635.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_152_JPEG.rf.4f326fa56b57ef41f5ec11abe6283be8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_155_JPEG.rf.6d68c3e3b8f8c0b18a3879254a8fc527.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_155_JPEG.rf.a56bbc620bcd1b57d8c053dedc750dd9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_157_JPEG.rf.38b102404ba4d2c48504f85384dadaab.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_157_JPEG.rf.551671146e11f298c72129397d23de20.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_158_JPEG.rf.f9e9798720a294d531ed0ab82ecb9e3b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_158_JPEG.rf.76481c027b66cca2c98019eabf816e4f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_161_JPEG.rf.0f1af51ec9d2f5d4000b49080d6a747a.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_161_JPEG.rf.d034469036fb87df03abd8d5a8149117.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_163_JPEG.rf.c53b21b7185fa83fa67907bfb1d15bc0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_163_JPEG.rf.e4dda11b4f19403752fe1c730c282c5a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_166_JPEG.rf.2e96a082db75b7932d181b3be5c1d3d5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_166_JPEG.rf.f7e40ba3fdd28f2fe470e9dc8a5a968a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_173_JPEG.rf.8963d3663e05cd5c49cde4a47f9697c0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_173_JPEG.rf.252fcb9bbcadee678c34841b957d624f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_175_JPEG.rf.4f73f75a41733eac931232deb0b7c3f5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_175_JPEG.rf.c619bb45122e9dfbaaa03b5f0eb58ec1.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_177_JPEG.rf.e6ba6a144aab99a496c7922f37c3bc7e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_177_JPEG.rf.af8b37adf45adcc7210e8e1349add825.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_181_JPEG.rf.b445a7deec5b8b249ce590174e08965f.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_181_JPEG.rf.9a006357064e534f82f96769afd7ca0d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_184_JPEG.rf.2fd39fef7e20953dbd22415a0818b7c9.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_184_JPEG.rf.564ffdeeffbee62146a5a1799c25f36d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_187_JPEG.rf.78ef0debf8736df77daa2066bc413767.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_187_JPEG.rf.1fae7d7dbfdebb41810f902b4ed0e17f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_189_JPEG.rf.268f108142c2e295799660a5a7c571e3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_189_JPEG.rf.e7910bf0c76285aafc76419e10acb722.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_193_JPEG.rf.7b6565ee21f745e75e040b475769b5e0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_193_JPEG.rf.de1fb5c21cd7a857a22f25357a39fa0b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_199_JPEG.rf.6948384ad3fa6c85b5fe1a34e5b2ca21.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_199_JPEG.rf.191dd15bdf6b9d69177162f3328ea49a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_201_JPEG.rf.20e62dddab1c011488a2e7884d7d4b4b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_201_JPEG.rf.a9b1c4d844cf569a15ad9e531d6896f2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_212_JPEG.rf.af51a8b29dbb08ad839fd770d46d4270.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_212_JPEG.rf.64e8c429d7a6e56881acb83bde412ada.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_37_JPEG.rf.4d625c6fbe6755668a80fc83df27ce7e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_37_JPEG.rf.2c3d704065049b96b027856ad97bf431.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_38_JPEG.rf.4cc66e0f6e1129d705a370637bf1726f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_38_JPEG.rf.ce00e6e2b8782e5a727a3824f460a6cc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_41_JPEG.rf.8275d62452a23cb20542799dcd6439d8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_41_JPEG.rf.3e4c8ca7568859e00a2b800bd1ddf02d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_47_JPEG.rf.5477e6b9d853b0197660ddb2d5509e56.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_47_JPEG.rf.549f31c90c436e285bc6792cdddb29de.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_65_JPEG.rf.23f01aafc9336c9dcf282c864cb71cec.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_65_JPEG.rf.3d162f4b8238bf17ad6801ec7c09f335.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_66_JPEG.rf.5ec6e6c219f8064b68f648f68fdb7e8a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_66_JPEG.rf.1cfaca92b9be54bc14d4396265068ecd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_67_JPEG.rf.3373439368208676dd8dacfb450f0ed6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_67_JPEG.rf.f4326e392f49cb7135aa80f0d9c27841.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_68_JPEG.rf.20d514045a0eca207dd0ae8d25d9dbe0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_68_JPEG.rf.fbad2882e0f5ee7e9a95a29ecebcd332.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_73_JPEG.rf.2c620577b53728fef647afc979d01243.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_73_JPEG.rf.a0e21202b67756fcf5b6fbf260cea194.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_78_JPEG.rf.82a5fb64aaf990a33accca08ea1dad7d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_78_JPEG.rf.69cfba1fbc7d0c088cd16ab236af4d67.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_79_JPEG.rf.199e24ec4c812e743929a6c39340d6c9.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_79_JPEG.rf.38d5b7c316dee909ce717532ddb67877.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_83_JPEG.rf.529410911193b388d4b85f3bb075232d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video14_83_JPEG.rf.6e2ed367a555e2482a3161a6f5a72fff.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_85_JPEG.rf.b4cf0d1fa53354cd9c01ac740b979e35.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_85_JPEG.rf.85127ba2e6b4ca9535195104b9560497.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_88_JPEG.rf.ce3a66dd91afe8e0144c340e139b44ee.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_88_JPEG.rf.a34fb51b1d5ba21d18fbbfb679a92662.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_90_JPEG.rf.a5e0d1032cbdbe93517527ee0fd6fbdf.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_90_JPEG.rf.2c059d5980fdba7cb619b31394b2a886.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video14_99_JPEG.rf.6656ad440ad4d5a278785b344ff0ac69.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_99_JPEG.rf.20f29a6b467e7d021e880707350eb225.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_309_JPEG.rf.d527c8d00e06db5aea43ba8d77b55aac.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_309_JPEG.rf.71898c5fbd231ba53764429206afa6a4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_310_JPEG.rf.d17b8155e1744f1e0e7b886d84c50614.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_310_JPEG.rf.4afe696a5fb0b7a7fd81d363beb757c4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_311_JPEG.rf.fb82cbd4dd9710dcfd3fe178b1c5e90e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_311_JPEG.rf.18e5a9a7696c0666ce51459af8f28423.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_315_JPEG.rf.8803a58b62a48a75801580b37072a98f.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_315_JPEG.rf.f25e470daf7e14c6b848b278b61b1019.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_316_JPEG.rf.96c095524627865d494b32f65fb47de8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_316_JPEG.rf.1cbb59bc0ad70e4fa9a4589785558e1e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_317_JPEG.rf.addc3b611ae815228d56f756710b80e6.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_317_JPEG.rf.195e089671706fb3069d132d26fce6b3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_319_JPEG.rf.116e3cc2fa30b4543251c89365810dad.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_319_JPEG.rf.eb493c498f277890a6d226c165f03050.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_327_JPEG.rf.1abc4f31bc024a6445c56c3f09916474.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_327_JPEG.rf.3731eb78c088f40c787f6ff3bcc7dfee.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_331_JPEG.rf.e5d394f4324d2f791b99b9cc0a7729bc.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_331_JPEG.rf.4ff456ad16b402d40118e95ceb4965a8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_333_JPEG.rf.ab13b04fe8cafc21b6fb35f1a2524c1e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_333_JPEG.rf.9c2a6fed35b850c3b599101b746e205f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_334_JPEG.rf.6f715fd15d575bbef4d6d20c0110d735.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_334_JPEG.rf.dee11eb531e249b153fb1c1e24ac899f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_337_JPEG.rf.ca406dbb2283e109afbf4256162df210.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_337_JPEG.rf.df8f42e099800e2252ca272bf46fb8ad.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_339_JPEG.rf.7ff9a3a4324befa2a88792a371c3420e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_339_JPEG.rf.31d73050b1666709ba47c3048fa925f2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_341_JPEG.rf.dd5a6fb68179e436673249cd62062a4b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_341_JPEG.rf.84af2f944f12c81be08d90f69376f168.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_351_JPEG.rf.7694ba95fbdcc7db569d4e2f09cfe72b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_351_JPEG.rf.ada3a4321506422769b913a4bd48b2ec.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_359_JPEG.rf.3be9033e361c393b2a8fb529093a08af.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_359_JPEG.rf.bb173d42ea0eba8f3b6f9fb118198cee.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_363_JPEG.rf.2c99ed9fff2763d9c53804b331b0cce3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_363_JPEG.rf.468fefe7bc9deff8228649238146d37f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_365_JPEG.rf.695982387fb87a7be04c93aa2432f43d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_365_JPEG.rf.05f1afe310c4fe632ef3dc232761aa19.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_367_JPEG.rf.e99bdb75b13acb0585403aea6bf2c094.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_367_JPEG.rf.a0729ddd1213eebc1d567632879357a4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_370_JPEG.rf.40baa6e5e5108dcccc8ca0e6e7aeeed5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_370_JPEG.rf.44496b0f63e32d856c3ceb1ee7d5a06b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_373_JPEG.rf.1e7ac6500e51980bd22def91e50ca9f7.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_373_JPEG.rf.5727639cef84181047a48e74874b8929.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_374_JPEG.rf.254e7067b80f6c61e14c041d9d60cd26.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_374_JPEG.rf.740917045fb9af6c8c171d90f8a71c64.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_385_JPEG.rf.dc7a580470a3258631f5fe7838b3ab88.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_385_JPEG.rf.e0e6d7895f2d44e9ca6459ec51756915.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_394_JPEG.rf.091a2f3a98356adc4d97ccd5fdd0017c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_394_JPEG.rf.7de2376ab78bc9f9629026c81aefb92a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_398_JPEG.rf.ab192a70e283fb8d76948344b454f410.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_398_JPEG.rf.33777bb4e2b9757ecd42200b949352b6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_403_JPEG.rf.3b2b0342560b5edbea41233aac031126.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_403_JPEG.rf.fd1aeb58000c1126c84890f29751e1c2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_409_JPEG.rf.0294e09deacf7461da9359b8e970f522.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_409_JPEG.rf.173c3346ca8fba926e5baa3a8bbd67ac.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_413_JPEG.rf.5b6924c47550f2c579aedf885e179432.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_413_JPEG.rf.91e7c892db5558e2718cbda8f0e13b25.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_414_JPEG.rf.2e89e062b670958b0a25a1f6b57387aa.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_414_JPEG.rf.f9c6fd449db1056ef2cec2b8ef1442e7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_416_JPEG.rf.c81f3d2c9cb517fedfd3c2028991cd6c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_416_JPEG.rf.6efbbc60331c5ff624573cb4a7aeef1f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_420_JPEG.rf.52ba8aee52b02d032cdbd67a91942195.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_420_JPEG.rf.a400a495c97d12240fe71838313d4c51.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_421_JPEG.rf.517b8884575a04cba6f67a5dc92d5f6e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_421_JPEG.rf.eb76cb8e392611c4ac8467006e322640.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_422_JPEG.rf.72b4fef1e6b2e4b73cbe7731c24f1193.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_422_JPEG.rf.535a1d2fa1ce70f69c1b36dbc6b1de42.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_426_JPEG.rf.5033187705eecc3442aacc4461858036.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_426_JPEG.rf.4d766426154c6aaf79381b525e717634.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_431_JPEG.rf.8ab5565187aa123c434956d4f478fde1.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_431_JPEG.rf.33eecceb59b30e6437ee559234320a0a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_432_JPEG.rf.e707ae94ce3b02924ac67b69e464e50e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_432_JPEG.rf.64c21a60477cedcd7c1420e5012b4166.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_433_JPEG.rf.f2c3af12b74e52ad86db500dd29eb367.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_433_JPEG.rf.9ca3576d66487ef661770e6b3c55003a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_434_JPEG.rf.69587a7d89ce1d43eb0fa6570136d739.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_434_JPEG.rf.958549df1a6d5603f81ffde9aaed704a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_438_JPEG.rf.c4686236da6a937fe86bc868701045b5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_438_JPEG.rf.c3c47897786728c597b2777c22d5750a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_441_JPEG.rf.1c5cd22a1ec8097f1ee8aded417cece1.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_441_JPEG.rf.b50462f5a82fdbfe6d87b2a12ebf3195.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_445_JPEG.rf.08b101fc5e9bbba89a0fa983f0eb25ac.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_445_JPEG.rf.bf3d21c20406baa8ca5c73dc643aebfa.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_473_JPEG.rf.ccccd9ecffbd875c868b39413ff123d5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_473_JPEG.rf.3bd907cbe1a91b85fa2d1ac09e4a8745.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_476_JPEG.rf.3da7d5d65dae6c0f8943c7ca9ec9b330.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_476_JPEG.rf.6fe8061066369e33e12cc620202f92e3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_477_JPEG.rf.e481ff7cbb07eb9d2361687f01ac03af.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_477_JPEG.rf.03ac188a5d8ba3098dd51e8d24add168.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_479_JPEG.rf.d977ffeed72f91713e23a3a222816861.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_479_JPEG.rf.04c741db0f564bc1a67c4c1c5a264171.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_480_JPEG.rf.6ae3e77362069221ed8a16acde791c05.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_480_JPEG.rf.86a430f8cee17c60a21cdc249a42aabb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_481_JPEG.rf.65c06ac0eaf388dfb5660c51f66528d7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_481_JPEG.rf.d544b6cd703175ac110caddf67b5204c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_482_JPEG.rf.04ce560b6ac3eaf3bedead4cbf87b340.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_482_JPEG.rf.3ae7427fdecb3e3d7202e94d612c64a6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_483_JPEG.rf.48ece21d148eaa803880c758065b42e4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_483_JPEG.rf.b58f8c5beef27713fc88f89f77377f72.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_97_JPEG.rf.3e5c69d2957469b6b7bc5d73a260fa93.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video15_97_JPEG.rf.d730eeb133bf07ccb5c6af1dd9c80e27.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video15_98_JPEG.rf.b41d858b37a4257fae62664775b27a1a.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_98_JPEG.rf.a42a5037dfbf0abec79507bfbd182b5c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_101_JPEG.rf.837c8a5a0b4194f4ee742b18241b69b4.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_101_JPEG.rf.702dc50d10ccfc7b95ae469719737c56.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_105_JPEG.rf.9a70cbe1e963cc010a51f48c6540c900.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_105_JPEG.rf.9d8cccbf7378b72a30679d8328574dfd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_106_JPEG.rf.70795c5988d180861af36cb88778b8ce.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_106_JPEG.rf.63cb70b7b33d2c2b33baa70ea58bb87d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_117_JPEG.rf.baa288b37813f0f6a3cb5437fe293ff5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_117_JPEG.rf.af28226fc682a95cdbddf7a918cf3301.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_118_JPEG.rf.7593c8e7af5bb2e489b388faec92a83a.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_118_JPEG.rf.e308e5d8caf1624a9ee723b8c67e4914.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_120_JPEG.rf.c0c590bfb5e2bc9f674a5a88953c7432.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_120_JPEG.rf.fd9f72db715349de88f24d28459d8c97.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_122_JPEG.rf.89cb2198686b5e2f06cfcd6944a7aa51.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_122_JPEG.rf.3dfb10249149bf1f20400c2d280111f6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_133_JPEG.rf.bcc82e3ad5b30cb3b7da17279805cba0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_133_JPEG.rf.107563eb3352781f00fe7de3642b5246.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_140_JPEG.rf.44008ffdc25d45cdfd965e06acd05d6d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_140_JPEG.rf.a4748742f8850677f49f3847c783f410.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_141_JPEG.rf.19d87e545581466b91bd3c747303e554.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_141_JPEG.rf.f865fb334f3bed2b1afc50677fb67077.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_142_JPEG.rf.8088d942f09b24f180434de14db7c98d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_142_JPEG.rf.284e9d4c14863f7e2e7af5d3ca855945.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_143_JPEG.rf.e2d4aa296b3b48460a7d133e67938cb1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_143_JPEG.rf.98d181b1d0ff6111edcef7480386f1fd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_144_JPEG.rf.a52d225cbe92c2d1b13677695d04538e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_144_JPEG.rf.7bd52ad371c0ce2468cca87b01ca365b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_148_JPEG.rf.0ada38b0e8e22559c834ccfabfdb3a02.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_148_JPEG.rf.aef3d53188489f528af96b668276be3c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_149_JPEG.rf.cfd99883d0ceb8d8f197f43d6e0fab9a.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_149_JPEG.rf.665a07dbca4babdec6549aec4b3d1aab.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_153_JPEG.rf.554e46ea2e5a7215fd7b8edd77234ac5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_153_JPEG.rf.d585c1ca3d0edad7ac72750d8f218ca5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_156_JPEG.rf.a40510904a0ea204c8c9c701e5948264.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_156_JPEG.rf.7b3af061d0aeca1ef7538e408907dceb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_159_JPEG.rf.4f10c4194a8e6861f36a506d9a947518.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_159_JPEG.rf.976dd4e5961fa35b7f1603885c870d8a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_162_JPEG.rf.c29925320e72c534ae07bcd052279504.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_162_JPEG.rf.3a2bacdc2025496df11ae02afc5d8886.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_166_JPEG.rf.03072e696c1612ad07278116119220a8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_166_JPEG.rf.204340d9ff5e76fb24fa6ea7ab2a0976.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_167_JPEG.rf.76fb3cfdafc4ad5dcef720eed3eab678.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_167_JPEG.rf.d71be68445695638c7045bab4b47187d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_168_JPEG.rf.06b0fb5763cfffdad026c125210002c5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_168_JPEG.rf.50f7a2e63a59cce37c9849d69dbe67a4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_170_JPEG.rf.52dc93546f08831fe72aab9b4a6475d1.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_170_JPEG.rf.4faa5c64e97fab11dcd9d77c95c5175f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_174_JPEG.rf.1d6da4b3173fdca9416f00b6d0b3dded.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_174_JPEG.rf.ce19788f23b9d332aa68003c2f5b135d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_179_JPEG.rf.fd4330929ef04c471ee40c56b50c6d5c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_179_JPEG.rf.29ad8784cc3d607ae239dabf331fc26e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_180_JPEG.rf.a36e17f4ca6c352bb0873ae92970fd04.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_180_JPEG.rf.ce9ae2227d2efd69d349dda87a7fea26.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_181_JPEG.rf.898d962b85cb180c0e6867ebe9597953.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_181_JPEG.rf.f1d92687327e348ca363a8dc7df84fc5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_182_JPEG.rf.170a4455928fbce9bfddb5b307462b4c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_182_JPEG.rf.ef6a20775e72843f9f839f9c3dae1ad2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_184_JPEG.rf.a0dd44b3b2d6470edc3b5d2e9edb041c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_184_JPEG.rf.074c306cbd6929d7e4d09c418072ab1a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_227_JPEG.rf.fc086ccfee2a462de20c7ae16077181e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_227_JPEG.rf.67b96602198c5fde284fc2d4f7f94d6c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_228_JPEG.rf.316ef8493de067b77c56a37eefe9ebb0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_228_JPEG.rf.2aff9e6cf70d53bb48621872da5a4491.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_229_JPEG.rf.bd7e313f673f77d8f65624ab8aee9732.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_229_JPEG.rf.b4a45bac1086199b6db9361a1e7accc8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_230_JPEG.rf.63dc64ecd45367c86e05600651015175.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_230_JPEG.rf.19a8e4026e17df1422cea77e11585a8f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_236_JPEG.rf.b8228c3ac9c3d09fa0eb3093588dad4e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_236_JPEG.rf.36de382da71f4af50a3a831bd32c2427.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_239_JPEG.rf.ed5987e02aacbaea0d62821f14522da3.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_239_JPEG.rf.b5936f53476ae2f21e818055bec8a68e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_240_JPEG.rf.4d53fe4cf17ad85ca972890f3df8c198.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_240_JPEG.rf.33fe7a28172ba3e54efe105d554b5101.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_243_JPEG.rf.13c5176a049ece54db307d08cbb6a0c7.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_243_JPEG.rf.a6d583ca460f34a096b9b0ec00e494bd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_244_JPEG.rf.3566ef3171acc5bf4dcab07b604f7889.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_244_JPEG.rf.6bd249151fab1c01cd8090f6b55fb7e3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_247_JPEG.rf.5f9c2b569cdc921bc485b450684c29e9.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_247_JPEG.rf.d7abc425cb03a158489d334caa921bfb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_253_JPEG.rf.404c56ba4182af997383b3af1295f8db.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_253_JPEG.rf.6803a8e6c3da00f1640e1192df661ce8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_257_JPEG.rf.2b4d99922112e7b3f5a5d17d1444ebb3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_257_JPEG.rf.93089da1055b8f1eefc6dca581b13250.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_264_JPEG.rf.00c617f332b2a74660b83409c9672510.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_264_JPEG.rf.12b0287183cc08b9e24495704f8f8a02.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_266_JPEG.rf.75f6490be97f84eb5ef384feca74669d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_266_JPEG.rf.9a75e9804af1cb0d74690f2a546827be.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_329_JPEG.rf.4e25770b8fa29c23228a558252f701af.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_329_JPEG.rf.955c3cb1c4b54820ae22ac0f6713399d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_331_JPEG.rf.1c5bb7c974ba4d4bf612a6dd3f8a0442.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_331_JPEG.rf.dd0bad6ce782780a6b8746a6f621c4a8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_335_JPEG.rf.3076669765a46c4e5fc186c121a50066.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_335_JPEG.rf.0f2363a818084dc1609c70a33947b8cc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_336_JPEG.rf.cb9301dc80e66f8b1109c29525fc665c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_336_JPEG.rf.638cab6601a0dcf6472c925f098a3a6c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_337_JPEG.rf.399b74c1183136a25658b3e19fbc946f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_337_JPEG.rf.bcf2db4f1bcb08fd6e1071b87a5c4060.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_340_JPEG.rf.80ccf22338e65bfd61d1ea32af673835.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_340_JPEG.rf.f148e19c2868929a8acfbe31edac991b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_344_JPEG.rf.712238b26cf0fb2f272cea954b568ec3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_344_JPEG.rf.803ca38c6aa58b1c15632f2ad6a7906d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_361_JPEG.rf.2eb2d0093a9f26def68f33eb8882e2c5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_361_JPEG.rf.6f45e39bd796d7d67ab5348f1edc9a51.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_364_JPEG.rf.a4a22ad1498c8f263ee766f1914d38fb.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_364_JPEG.rf.b385be1db04654923dd9798517723a4f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_365_JPEG.rf.acf62dbc41899a2126923915a8da0971.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_365_JPEG.rf.be28329d0d61a8178b416e110a90dd8e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_368_JPEG.rf.28528dbfff8066000cff865792043f3b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_368_JPEG.rf.f65a0af3c398eef11544301c229d4903.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_371_JPEG.rf.74d2d456a5f40d3fe40f4f87785abadc.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_371_JPEG.rf.33c250facf9ad543745b78e108bf50b3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_375_JPEG.rf.ceb8fb6bbd00b4a2a05a926faf1626e7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_375_JPEG.rf.c7439b3580cb0cf7ef9c6083251677b7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_378_JPEG.rf.721961e86d324012361d2646323dfc43.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_378_JPEG.rf.38d57ece538477bd36275859763b8d69.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_650_JPEG.rf.f6165621cbc2241b44b03eb8628e75c2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_650_JPEG.rf.1d2789d0251e5af9fad72d5938c9cedf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_658_JPEG.rf.da9bd4e4c263128aba72c8bac14852ed.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_658_JPEG.rf.99a7b3e1b59fdd9ed8783500a62a4a60.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_660_JPEG.rf.37aa4d2110476eda8691b8118c443cf8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_660_JPEG.rf.c91e66ac6c880d5f5d0fad31af640649.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_671_JPEG.rf.9eaa2b2f1e6c6e68ef356bcab8d75d04.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_671_JPEG.rf.debd20a3ac198eb5cfd07127986f6516.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_735_JPEG.rf.094534a33fdbca6af98a64183f8d2a71.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_735_JPEG.rf.55e109b4db3033e7756d095383b793a5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_736_JPEG.rf.5713752cd665626890efd8db55181294.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_736_JPEG.rf.8ea4d6093245af91e1c40a9c53f434cb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_83_JPEG.rf.e6d6bae4e071af191a8433b4d9e3e541.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_83_JPEG.rf.341be938d6a497321f41e50e0df5cf25.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_85_JPEG.rf.63bfe4d810df2e1646b6d14282ac0258.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_85_JPEG.rf.8b73eae677d1cbe70879c6af72d9a292.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_86_JPEG.rf.fb77df666b0260f61ef8892bf98677ba.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_86_JPEG.rf.cc2cc4a49116571a6df0b899217b84e5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_87_JPEG.rf.82084a329f7242fe60671075723c65e8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_87_JPEG.rf.f28c43d9884c471bd92802098be28e24.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_88_JPEG.rf.e69a54975179f3d7f28c22857b241382.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_88_JPEG.rf.25c4234000e2134874d882b6bbc10723.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_91_JPEG.rf.f5fedfe5567ec09015149413f988f94a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_91_JPEG.rf.57f809f13b0d079a45328799d90d972a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_98_JPEG.rf.44fda522e8c553d444516462eed4d27a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video16_98_JPEG.rf.9476b5906c4b3c310fcfd35be5b68748.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video16_99_JPEG.rf.908e3c9b539663ce07d7ab009e405069.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_99_JPEG.rf.bd9ac104609d2bc1f2d1388ec98ec181.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1001_JPEG.rf.4d149fa7b6f19d48dfed1ce9038e75e6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1001_JPEG.rf.ec02e36bb11330ed5235192b78e5c43f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1017_JPEG.rf.c59ca5a82671a9e252abb0d0a71fc9af.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1017_JPEG.rf.b5ec3a7749e622257d0e96f588e36343.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1018_JPEG.rf.6a0ab884a11ea8c5aeafcfb4b0533af2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1018_JPEG.rf.3cf0e84b8a9d3e3752a6b1ab8ee64d35.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1019_JPEG.rf.24278506cbe27bc909e7b27bf738f83f.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1019_JPEG.rf.0f94611315ed7f4a7e1c3c9c229da8f1.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1024_JPEG.rf.f5309313d83f140a11c2c306cda5ba4c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1024_JPEG.rf.0eed0f338590653539cf72e895d01413.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1028_JPEG.rf.c47d60a47f88c9e296f1eba765060022.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1028_JPEG.rf.9f403aaf559fbb7a7063ad1753cd0065.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_102_JPEG.rf.a4c4420e96a2bbdc6af4949ea287c14b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_102_JPEG.rf.26f9022ec1bc4af1161073865fe1f054.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1045_JPEG.rf.460c6d3110305f683f3554b1f1946444.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1045_JPEG.rf.58746d553eb797a5afc66792bac75512.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1054_JPEG.rf.e3ddcf3d1b67cb0cfe12494438d6efec.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1054_JPEG.rf.02ffac2e7ae4a825ff18039798b9a8af.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1055_JPEG.rf.9b3db3d2e9705cc93b205cc9b2b2e0f3.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1055_JPEG.rf.14e31fa901843f7ba914dc4e140e3ffb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1056_JPEG.rf.f271d3e450898a5e992fa42b8dde736b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1056_JPEG.rf.d0e21ccd8755881ddeb8c823d700ac2e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1057_JPEG.rf.eb1fbf254ea4addb4a56b403c7c02098.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1057_JPEG.rf.6ff3f3c793ef30980292e607f2dc7ee0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1058_JPEG.rf.89eb305a6454693f57d11cb9df8cfec1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1058_JPEG.rf.69efd337062319c89c4dc921d13c2c6e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1064_JPEG.rf.1ae7baabb738efbe189de063a7d0b0b2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1064_JPEG.rf.6f03f7439bb53226a2784e46b17ec332.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1065_JPEG.rf.8bce61309cd6c7f71a69fb8ba7910c5a.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1065_JPEG.rf.450d1b65112ab45d3201e3d31b041e42.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1069_JPEG.rf.0e45347ab0c365b24b76739339a5a092.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1069_JPEG.rf.747db1e1ac4881ad9d33e4fc141c5f06.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_106_JPEG.rf.e17b83b5c827ef6351576517b623acf4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_106_JPEG.rf.22a529cb2fe7b5e73aa2f8a5979221d4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1070_JPEG.rf.8fc39353a676cf6b6c16b5a8da2106eb.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1070_JPEG.rf.349bec88e9892424c370d29b06a29788.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1071_JPEG.rf.96c0d80043bcfd0896701d5a2d1434bc.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1071_JPEG.rf.9383844f15f0eef8b3ae197332fd214e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_109_JPEG.rf.c434f1abcbbb650a60fa887235e2d410.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_109_JPEG.rf.6f3901f903c52718e0b40292f3dd0a86.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1117_JPEG.rf.dcd148e03c9a98f5f665ab525c7902a3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1117_JPEG.rf.4a9ae5144dab04dbc87e67bf27b9238e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1126_JPEG.rf.69ed0c68a74f14951fbfc6ecf3422d3f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1126_JPEG.rf.3ae43d0aad6659c18ce7662212d8191a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1128_JPEG.rf.7723adfd80904cd27dfc5e2233ba56a5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1128_JPEG.rf.d4b26f5f7ee64af01c7cc43b5bfb981c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_112_JPEG.rf.c0a7ef81505e6a2ee5e098a724ef9c8e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_112_JPEG.rf.00ec19eccbfdaaf0be797bccbdf8df93.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1131_JPEG.rf.42dbc82bfa294e64fb85107237587f33.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1131_JPEG.rf.67805e5e50d26dec7ab8f84729266198.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_113_JPEG.rf.5aefc3610192b08a7c89ac180af3cb77.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_113_JPEG.rf.43615f154fe62f66d3bc74ad541f4449.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_115_JPEG.rf.358b331c1951bfb391afdb3aa11bd8c7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_115_JPEG.rf.2568b1581b723f9f2c0d0f8bb58c9c68.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_116_JPEG.rf.9871e893500cd607818dab286d6dbc2e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_116_JPEG.rf.e0732eb1842aefa6b5737b3efced6abc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_118_JPEG.rf.85ce74187410fe210402c8bab4098455.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_118_JPEG.rf.65ddc1808d1759ce0e77967a7a9dd588.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_121_JPEG.rf.2b2e8548691869ded9095889c437771c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_121_JPEG.rf.638d7e7cd12840691c31585176bb1b1b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_123_JPEG.rf.0a8598b6399b982d9abb809ca89351d1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_123_JPEG.rf.5c1c7e54d7dc40af3c5ea94492ee259d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1241_JPEG.rf.37abdd4da17136cd4f0ffa54d8df2d3f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1241_JPEG.rf.47ca96aa800983cc44dc90a1580e4fb4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_1242_JPEG.rf.7da20a0aa91c7b43fd3cdf0ba4bd0109.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_1242_JPEG.rf.50415cf28aac5c1f167532b9409c60b8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_124_JPEG.rf.2c5e174ba10f32d584d789c6db8f06c7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_124_JPEG.rf.2cfbec692664b14662daacf6c99aa8dd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_125_JPEG.rf.15bea4f6cf7606ae05d80b0a7edd7aa5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_125_JPEG.rf.2c11a02e11b2aae8e68ce85c13a6a366.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_133_JPEG.rf.fa3fc53624947501769744e1a33449bd.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_133_JPEG.rf.bc47475abb230d3e379110d4ce7eaf41.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_134_JPEG.rf.98a1725724ffc245a2753377df2b89ff.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_134_JPEG.rf.f8c83192003cf2e0fe6a6c3bbf71b0d5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_150_JPEG.rf.d06cad9efe75b6396b9d20a765384f2d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_150_JPEG.rf.ac81a6baa52fa266a5a0b60bf77a9b98.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_153_JPEG.rf.26ada067441c95b68a4558479f34a38c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_153_JPEG.rf.f3137157059b3f8bcbe1f6e52df5a0b3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_154_JPEG.rf.f4b647a39dda9bbaf4346352d0ca8434.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_154_JPEG.rf.5c086d0905ed565800f3887aa9ebdc00.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_156_JPEG.rf.be198c49af61a9c97211025280fb8fbb.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_156_JPEG.rf.ca917872ee0f012ead618e5372fae845.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_157_JPEG.rf.33a950ebc9b78b962b8535483efd4b34.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_157_JPEG.rf.0f51b03d62afbaf3f2b4dcfbec80a534.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_158_JPEG.rf.7d19667eb5c16f11997280d0bc973d5d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_158_JPEG.rf.19cf53b34ff9c3d5c39b02d2567f6ff5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_159_JPEG.rf.284f4e13ff38c4779d0d19df71ce6614.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_159_JPEG.rf.194eec068cbb940fb81535dc05bec974.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_189_JPEG.rf.190476fd7cbb549caeed1133b3d1e418.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_189_JPEG.rf.dfd76422082907c851e0a1aca3f3094e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_190_JPEG.rf.dbfd4f51d0771243433a5c50fc0150a7.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_190_JPEG.rf.eb75cb971d684027f209f33d9b914d6d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_193_JPEG.rf.460ff661f71a293ac74aa09c091a8ce2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_193_JPEG.rf.28888b7d61027916ad62ba37d60cf18b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_195_JPEG.rf.8905c947b7265aaf8b5d95b632286690.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_195_JPEG.rf.547d4424fa2628cd27c91d61db490a06.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_196_JPEG.rf.e17106d8519f3b403b8c61deef4b92eb.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_196_JPEG.rf.4b4bfe38627ca6d5e1a3b6932b48098b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_197_JPEG.rf.41532e6a219f56fe213f949f36733753.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_197_JPEG.rf.006f7634e9cd00c22ff497067e4d4140.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_298_JPEG.rf.38df792c98aa5e387ff4aed55f807d8d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_298_JPEG.rf.ebd951b271649b4affb3cffb22a9e21d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_299_JPEG.rf.6771e6a23a1f213160b913c3123d5cda.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_299_JPEG.rf.8b3e1fe7718da69c38fcf3654b4522ac.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_304_JPEG.rf.2be6809d37fcb74d1d3d4f38cf4e43b6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_304_JPEG.rf.3baf7b503073c7bc28ad1956128e5585.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_416_JPEG.rf.37a9b2cc2599bd39b7cb8982d34cab75.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_416_JPEG.rf.d8e35d9a5f402006d3301805d4884f5c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_417_JPEG.rf.b617e9752f07e0efd243f72fd7be41bf.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_417_JPEG.rf.b10e38a789875d32b77607f125a5bf95.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_418_JPEG.rf.cdfe91dd78e2a0c4d526ff7ae891baf2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_418_JPEG.rf.556b0a42a3d13137502a1d857ca1a3c2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_421_JPEG.rf.921fe2a26cefd5bceb93515ee0aba06b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_421_JPEG.rf.6d899e22e48f828e50c5095874f37e14.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_615_JPEG.rf.e5ae8960981aadb0d4c724657bff825a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_615_JPEG.rf.0df61386680c9e800eeda04e2d99c9df.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_617_JPEG.rf.7f1434b6e6b3a26f37def741e3d55b9e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_617_JPEG.rf.a26eed5d29ae309a22de966048d8fb83.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_620_JPEG.rf.81cb85ce66eff2be7deaaa05af15bce2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_620_JPEG.rf.52218b034d45461c2ef61f5ee8222181.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_621_JPEG.rf.2595f4dafad540ab56ca0e24a21897b1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_621_JPEG.rf.e6e4db06c01fc3e72408dc4621460d04.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_623_JPEG.rf.933790960ea33dead32b51347b981165.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_623_JPEG.rf.05d946fae84ec3adaca6c09a59ea771e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_648_JPEG.rf.58e3820b105e97502c6c2715ba112a6d.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_648_JPEG.rf.87d8127a41bab36a2afde922cdcc69d5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_720_JPEG.rf.5643d4af40bdd9832ef59858cfed7033.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_720_JPEG.rf.48b477f31a283e64a2ef71cbcc5268ab.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_723_JPEG.rf.dc1a47dd4fd57f95a8c1162eb0cb06e0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_723_JPEG.rf.06943c17f7c4b95f97098baa7a41d236.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_727_JPEG.rf.ba6161f99a27fb6f681f9ac3705e58df.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_727_JPEG.rf.e195d44dd6ccf0e6532274cda3aaec0b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_743_JPEG.rf.23c9cc771145ad8b30dd03994ddb8dc4.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_743_JPEG.rf.fccc6a8062754af1d9b1669f409371c4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_750_JPEG.rf.4f2081a7b22d2b26490bd7e30a137547.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_750_JPEG.rf.7d2d64bd57b3944b302bb42b21ea9849.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_752_JPEG.rf.91d5edba8a38e80db41f161a52a9293a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_752_JPEG.rf.a4c7e072eec061023ebbf917fa874172.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_754_JPEG.rf.b0d1ef17696280f991202da09818dfc5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_754_JPEG.rf.de3b72c003e872e7ca81eac10b8197c9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_776_JPEG.rf.5884cdd60760d721821e120b30e2e06e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_776_JPEG.rf.a4c41396c228c1efe020714d5d9082c9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_777_JPEG.rf.2dedae82a1a098dcfd130efd85a32423.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_777_JPEG.rf.75b004e13ca90e2f558f711ff79bc5f1.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_819_JPEG.rf.d53dedfefb24abfbca353d2af2f1d046.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_819_JPEG.rf.3359060af28a24c24b1fea95dd40b865.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_824_JPEG.rf.a5c4ceff8ef22e7db05c71e571d704c8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_824_JPEG.rf.98d9ecc7b3fff1c490bc31b93367aeb7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_825_JPEG.rf.0f3df6b411db69690a4602c29f8828a8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_825_JPEG.rf.b031f92ea0bd16ec3ba2068e3d6ed00f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_826_JPEG.rf.86efb8e902f2088444a788e9ecdeb8bc.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_826_JPEG.rf.60ef346b6bf8d821ae5525ff724cf3c7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_834_JPEG.rf.36728c33970997b21b62f1ecd471ed16.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_834_JPEG.rf.6b566b0d098706c5908ade5e7c948f3b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_836_JPEG.rf.45d4b91e7590c557198db71b2a5c7426.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_836_JPEG.rf.2fef1434f25ed8fd09323014414f9469.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_837_JPEG.rf.769a458ab980467fb72b0f8562d071cb.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_837_JPEG.rf.26c7d0b89df3c501d767be746f19b8bf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_838_JPEG.rf.ecd51b00449ee3af3069b7e9885ec2cc.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_838_JPEG.rf.dddcecfdd5b0f8b871454e418fe2277b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_87_JPEG.rf.2a2b050440034a8c06c35d67fea4d1bd.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_87_JPEG.rf.2cff86b245d5713ca1f23dbee488c6be.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_88_JPEG.rf.f46364fe8376749ed9561af8f14b0f03.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_88_JPEG.rf.9a1b1847014ceb3611b458e3f1c68ed0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_89_JPEG.rf.b6af539018d25733a0f3317b42923215.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_89_JPEG.rf.5ae569de76150404b1d971d33593034f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_90_JPEG.rf.240d9515c03e0c4b952fd9197f262293.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_90_JPEG.rf.c44886a5e5739965b8427deee5703530.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_93_JPEG.rf.142327b5e09ef6698c0b881e18a038ed.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_93_JPEG.rf.e5e7d504f35830b0b9f70f0c952861ec.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_942_JPEG.rf.33b115465621824b98538a469a097367.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_942_JPEG.rf.b109ceffd8630871f5eaa1024506be0e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_943_JPEG.rf.313b800c25b02ea986305deb848546e9.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_943_JPEG.rf.ca0e0a55d08775d0a434ac3d33e318bf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_945_JPEG.rf.3ef9be1baad27aac22200567a5db9503.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_945_JPEG.rf.452ef1502bbe73fe145f38f0e2166517.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_947_JPEG.rf.721ad043868a393041cb60f0632b20a6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_947_JPEG.rf.b396f8087486154abee7fa35ecbf1a96.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_949_JPEG.rf.f0e5653f53d7f5f08f64065c1915a7da.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_949_JPEG.rf.bbf038ab619683b5bf6bdaaab8ed6f49.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_954_JPEG.rf.3de31c948ba691ee5c62ce93a54ffa11.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_954_JPEG.rf.46a202c3f8488fddcd757018d70dbd61.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_959_JPEG.rf.568b1eb62327d335ec4c567a0bb1e98e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_959_JPEG.rf.9c4d039a7ccb50c0d818977d758878e4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_95_JPEG.rf.cb6fb2c8a8a58275327d3ad7bd3e108e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_95_JPEG.rf.8ee0979c4dab2427531c1cabeb95a314.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_960_JPEG.rf.493f23d5f1010d4f6560add37dc4563d.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_960_JPEG.rf.2c808c2adf6a5efc9d57fbbe4555b586.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_965_JPEG.rf.40103e8c4b9545fe6c59b0b8f065f70c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_965_JPEG.rf.7bdac90f4f7f7091181e5c5d887c1fa9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_969_JPEG.rf.a4dd35e655a6e9f9de8adfad21a84715.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_969_JPEG.rf.e0526f7390ca2afe4084eba86f344adb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_96_JPEG.rf.f2a6df06547a0b8a8b6007615334ccde.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_96_JPEG.rf.1c3e37ad7c8b158902db3ae1a7cb781a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_974_JPEG.rf.4ce4a296f53b2f1fc76f32b039563c7c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_974_JPEG.rf.b2e3be60699fdc0a682a27ea725d4c8f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_975_JPEG.rf.4f55846162b58ddd3f59363d7cc0ed66.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_975_JPEG.rf.d54b1167e72648913ba36fd432a62a71.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_976_JPEG.rf.77bb84ce10f8c8659e935699276a34d2.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_976_JPEG.rf.13df1f54a3ec56324094babe875a66bf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_980_JPEG.rf.448f934ae0a731dadadd4bef1c22fb09.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_980_JPEG.rf.3d96215caa5d44fc1f3c98825404e897.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_986_JPEG.rf.7b7d583f92b78effd851c7033c956b62.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_986_JPEG.rf.e9895d9884a4426bdf382211035c9dbd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_989_JPEG.rf.757e84f5992bf1eade576cd7fd6dfa25.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_989_JPEG.rf.d95796605ec2eccd5119ed1efffd6c29.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_990_JPEG.rf.41405e3afd7c2a727fc1c0f0b9143d5c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_990_JPEG.rf.5e727712ec08f61115e6c4f8c1738c8a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_993_JPEG.rf.bc6b298fb9d6c1246f6f756a83ed9de0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_993_JPEG.rf.4e343ce0307f9bd2e4d8b1766a5687e7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_994_JPEG.rf.d7705802f4e5bb9401087c5cfe9adbae.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_994_JPEG.rf.88f73bd373c0e5bf04045c4fec1045b5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_996_JPEG.rf.55b4dc3fa1e046919d0e5a83e081979b.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_996_JPEG.rf.05cc7d743d2b87a8734382b99e6096c6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_998_JPEG.rf.c4e53bcd82be32e894d8bf61c8b127e9.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_998_JPEG.rf.55332d68525b1acce758cd02634757d6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_999_JPEG.rf.f03786591a253293a7214e4c0ca474a4.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_999_JPEG.rf.3b4ef2c2b1eddf8a30a0eed6d2a832bf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video17_99_JPEG.rf.0623587bfcee79f049cc0529ff889b6f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video17_99_JPEG.rf.e71345416ad662ac8d611645f9b5da12.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1615_JPEG.rf.6b0082ddc4e92cb3b648894a0233d05f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1615_JPEG.rf.49df2b034584d42f5dd58bfb6dca10e5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1618_JPEG.rf.fb9a6c5029d58389e2398d1e55822468.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1618_JPEG.rf.f872c24953d69e2b1c3d5d9641e785f6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1619_JPEG.rf.9ea0e878b2626781116095e730898428.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1619_JPEG.rf.ac5beb481594e8e108d4a58c50f37390.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1621_JPEG.rf.5afa7ae93ccdc63d1121aa63c567d2cc.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1621_JPEG.rf.83c39b99acca5684afad38edf17693e8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1622_JPEG.rf.2eeccfc9a6ec834ec20f2f7fdac599b7.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1622_JPEG.rf.66fa1d2203b62f8671c13e497f3b5fbc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1623_JPEG.rf.1d4d6f9615dfd31f5ff73ccea72623ba.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1623_JPEG.rf.7e359a76b3f2ce39a99627d9d41db541.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1624_JPEG.rf.9614d083c807036157c6425870fde8e5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1624_JPEG.rf.1a5853e5719aaedf7fae364f7b7181c4.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1625_JPEG.rf.d41de0e9693f7790ca0d6e966fe35b72.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1625_JPEG.rf.91ffa609bea91f19861fb42cec6b8e61.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1626_JPEG.rf.cc8845dcc19d31aa01798ffe0620a813.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1626_JPEG.rf.4dc1d12a2e2237dc8167acf04d34e74f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1627_JPEG.rf.1f22ad381348928a33f0281cd02898ec.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1627_JPEG.rf.3e01e441e6a0c628cce3fd07e7dea3b6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1629_JPEG.rf.9da63cd3c809704c552a614a65388aad.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1629_JPEG.rf.6276ad484edcb61ffc062f344e3ecd02.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1631_JPEG.rf.9d6d76f0d3aa7a5cfc1124e745a70081.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1631_JPEG.rf.fd8d0060424928f6710d6279e636bd1e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1632_JPEG.rf.97c71b8218e0902330020c89353a4f12.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1632_JPEG.rf.bc0a122a086ab6a584738cd8957d9ab7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1636_JPEG.rf.b31ca798d055ffc43b7bfd1313e28b84.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1636_JPEG.rf.98b07b1859eb125c9e32fdae589d6185.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1637_JPEG.rf.1f48fee5918f7051f86b9a9d888be38f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1637_JPEG.rf.f87e47e060176f5cbe54b14f35d5c0be.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1703_JPEG.rf.01c3ec64fc044cdb6507f9285e36238a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1703_JPEG.rf.1731d735c4e1758b6fc8778884b1c53d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1705_JPEG.rf.f3fbd77e1163ecf3e9b5d2457f487db3.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1705_JPEG.rf.9b171df85e75929bc89591203865bf72.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1706_JPEG.rf.e8a57e022ae8f8f746f8c96fe37bf609.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1706_JPEG.rf.919a196e67cab8d4d27fe1092750b105.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1707_JPEG.rf.a7a241248b7097a308a84932c6dcf787.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1707_JPEG.rf.86af775b371fd061b0766a007a6343ee.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1710_JPEG.rf.99b51eaa7c34f0e8cf463410df186087.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1710_JPEG.rf.9892a40c8115c69b4721c238cd855643.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1712_JPEG.rf.f7a4d30ffc3ededa140b9ded9467d3f9.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1712_JPEG.rf.e3bfb3f89c2695af443ad8ebccd50a1a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1713_JPEG.rf.3c052fc830a3d72f1c79e7d8f29faaa8.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1713_JPEG.rf.f4b5327f0bbf65805ca4d283d3a258d5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1716_JPEG.rf.bf5c79f180dda9c3c0e903a3533fd593.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1716_JPEG.rf.f7fa4b99d656f9638af1bb2b9b55ae3c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1717_JPEG.rf.c63fc85e90ce492f58c480cfe2c8f212.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1717_JPEG.rf.96916c80d3636b3cd3d3168feb6aa46b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1719_JPEG.rf.3ca9212a64ed86ac2570ff1bf10f4a68.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1719_JPEG.rf.8b2be692241b956635d4c06d2c85411e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1721_JPEG.rf.d7cc65d924f2a45155ce65e1ca7d4131.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1721_JPEG.rf.5718768922aba7b878b839fbe1751a5e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1722_JPEG.rf.7e15ddda680392d50ef70a50f4eef681.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1722_JPEG.rf.67d56e8745830df4bb3319e9bd0aeec0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_1723_JPEG.rf.e8b0ac753a95eea6cebd9e382d7924e0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_1723_JPEG.rf.675e9899535bb0510082f62bc2948745.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2040_JPEG.rf.888e075ead0d6142f8126610236aaed4.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2040_JPEG.rf.50401beaa675a30570f3569c67a60260.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2041_JPEG.rf.6475a7b89146927a3ba5ef080d89a765.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2041_JPEG.rf.d6189383f3b1bc3292ea2d942169041d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2042_JPEG.rf.92bbaf57f4ac9f10eebab0dea3972c96.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2042_JPEG.rf.9dbf62c0e176a83858d49272760888e3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2044_JPEG.rf.4435b152b971bfc1123491d9930b2d4c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2044_JPEG.rf.86d47489df0246335fd5aa74bef3a562.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2045_JPEG.rf.cfa23e4ed65306e02e8a56d7711b3fbf.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2045_JPEG.rf.baf908865e1abfceceaecc835c05d9e7.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2046_JPEG.rf.badb533e91e48796ec9149c8dcb2bfcf.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2046_JPEG.rf.4105527793ff9ce711cf96e2360a1eef.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2047_JPEG.rf.746ceed3a58b8344f99184adb1cdfd34.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2047_JPEG.rf.9fe172288c4872bdb6cbe91da81f85f2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2048_JPEG.rf.904e7f014d7ba76ccef83f262de20be5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2048_JPEG.rf.11ca85a060e5c8f6fca54b80867176c3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2049_JPEG.rf.6720d4df9794f98fb9a178b2874acd11.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2049_JPEG.rf.3940f5e85ad918e605f8fd191e15eed2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2051_JPEG.rf.ecac72ae67e10e08ca442a868b03eacf.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2051_JPEG.rf.ec08f8eb8283753ab385e52123b88fb1.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2052_JPEG.rf.32fd7819f8fa5e31ba2ce923ea54315f.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2052_JPEG.rf.1fbabd49c9422ba8c8d30cd4252906c9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2053_JPEG.rf.04cb9335fad2b359270c7d408094b813.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2053_JPEG.rf.376aa77058b52bde5323a0892180091a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2054_JPEG.rf.fc41134b8cdbd3141ea184e92380b99a.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2054_JPEG.rf.c789407bb949d55360c096af322893b8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2724_JPEG.rf.90bf779a454af094bc4f9979e126a905.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2724_JPEG.rf.a43951d1c4f3287c2410396f054ac546.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2944_JPEG.rf.135e3eaa527f15fa05f810c5660a90f2.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2944_JPEG.rf.471c3f9c7bbcbe30e13f641a2c0f8055.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2973_JPEG.rf.cc3dd0bc2d9e41202bb7b03a4e102f65.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2973_JPEG.rf.9afb127970554c38c360f768c8560d1a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2991_JPEG.rf.ef779daf3c6379bdfb99ce5040366977.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2991_JPEG.rf.40577d8705081c13b92453f4fdfa7d76.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video18_2995_JPEG.rf.5c96d9c07f2db1412beba3923ebeff69.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video18_2995_JPEG.rf.5c9171f6ae9d47c522deab0c8b158afd.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1873_JPEG.rf.6e4ae6dae1e4f51470c21cf85a12d022.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1873_JPEG.rf.48462635f70796f554ee8effb8205061.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1896_JPEG.rf.5c30e315f0445387a36a86a5d3c983bf.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1896_JPEG.rf.cb06c5c6f2947012bf482c980900a785.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1898_JPEG.rf.aaf1beb5a3485bb2d3a979154385bd8e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1898_JPEG.rf.7837b4aef0d80f156d58fc4e1592e3dc.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1899_JPEG.rf.3dad43038bdc1cd1aa9e4cef3551c0d9.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1899_JPEG.rf.fcebab51e47fb13d28cd1e5e272dd1f6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1913_JPEG.rf.3bb4f3ead785d351de424f7a20ec4024.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1913_JPEG.rf.46318adc2c85bd4cb0d72b0b35713b45.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_1916_JPEG.rf.9cc29a9381bbf3b92c735c01083f93f5.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_1916_JPEG.rf.e1ca93d5592f84f7542081f03ab9efa0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2123_JPEG.rf.bc9d7634b3839989dd6b941c8d7bcd60.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2123_JPEG.rf.aa4420c861b6cc6eda277da0392a77aa.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2496_JPEG.rf.cb75ab06ae0fa7238a1c600a7232c35c.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2496_JPEG.rf.8af16c0c4674d56df9446b1438df830d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2499_JPEG.rf.791bc5513a7a1d7b2e9894a8e05cfb60.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2499_JPEG.rf.8a91143b108f55ea2c397bad75dff463.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2500_JPEG.rf.74c24383185ec1fc019be0d758b501c0.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2500_JPEG.rf.51d4b678050025c1f711e3c18553d92c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2624_JPEG.rf.8f80b5c2fd19b5354b4e382332d98a3e.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2624_JPEG.rf.32fb151e40d4c882c81bbd4522b24d86.jpg"
+      }
+    ],
+    [
+      {
+        "split": "train",
+        "name": "multirotor_video19_2642_JPEG.rf.d9c9c3d742b6f0a077bdea4f48faa463.jpg"
+      },
+      {
+        "split": "val",
+        "name": "multirotor_video19_2642_JPEG.rf.b1a03006a6604859e2a9913bbeeb6c53.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_121_JPEG.rf.5b6bb037566c6f19a6d4d75da41948f0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_121_JPEG.rf.23ad2155b9a1c2abe640b85b115f0951.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_131_JPEG.rf.e94b432fe9ae499655d2cab919472037.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_131_JPEG.rf.a1c34ba55a32e96cad59c389fe96b4b2.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_138_JPEG.rf.807d1cebea0de5a30dd487a9f23d7fcf.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_138_JPEG.rf.a799b9fd49c833ba7e816da0e033a1ea.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_146_JPEG.rf.731753581ad8c78a01a14c050447258c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_146_JPEG.rf.56e240538e1bec61e9f5d9321180b928.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_153_JPEG.rf.4a137b6c5a1a655e7b1326bb6f0f8889.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_153_JPEG.rf.a092e4240b16a9f290cc8cf2ceb5dd84.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_167_JPEG.rf.a46fb879ebe0131828831c8db56577d0.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_167_JPEG.rf.1059ccc372740c462413c11cd2043cfa.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_198_JPEG.rf.adfaf448109a1d7e9b58a4e7e3b17965.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_198_JPEG.rf.e8594aeeef9381bfe96a8dee4e167204.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_50_JPEG.rf.43c530e0a6e3111c0cee856af8b26de1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_50_JPEG.rf.8636879704600db7e703dfac5bad6498.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video14_98_JPEG.rf.cb4ded9256988c4991cc00ba8da145c4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video14_98_JPEG.rf.78b4387a4848a83d6bc5e7018f7d5e8d.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_320_JPEG.rf.77c449f2d72266f2b32055732e8955e1.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_320_JPEG.rf.a36f0b70e1679fd92541fddd5e6b366c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_376_JPEG.rf.2bd7fa7723b709d2149444f0ab75ed8b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_376_JPEG.rf.679fe75dbb8214f15124e0336c5e31cb.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_401_JPEG.rf.16a593e512616b7be0bcfad6bbbd5ed8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_401_JPEG.rf.b51d095a4b0f5d552b03744d1907273a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_408_JPEG.rf.c88036e6af99026ec5116408762ae1ad.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_408_JPEG.rf.688e50f31712137aeaa3aa2031ac5fd6.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_410_JPEG.rf.078cb5b015fc5636667e92a7ec6779df.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_410_JPEG.rf.56dfdc3edebeb08e6a53aa2e048196b9.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_411_JPEG.rf.3240101215d903a028e28cbec27b1c4c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_411_JPEG.rf.7664689a4468bd33dd45cb5b815b8ce3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_412_JPEG.rf.8425736c892891b2e82df8b0142ae551.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_412_JPEG.rf.b9f8bcea4291416c5ad0899979cf6f65.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_446_JPEG.rf.ae0f2a9f3bf8819bdabda0ad243902ed.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_446_JPEG.rf.dd5245fefce49b7be921159abb41aad0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video15_448_JPEG.rf.7f2816b6cda9884315f66e7abb7a9cdc.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video15_448_JPEG.rf.887a2c501d2f80bb0e1eda8de0a9a4ad.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_124_JPEG.rf.fed45f131547e92264f41d45a53ee771.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_124_JPEG.rf.4a3c493b47c5c1a41e810982f8108a76.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_129_JPEG.rf.e637d227150ba2d4c5b9dcf596e9a93c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_129_JPEG.rf.d50374226964013b7a680697b2dcf4e8.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_135_JPEG.rf.ea16b9462e08455ab54ea2d2df8909c3.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_135_JPEG.rf.42b34fc8f4d8ec147b7e017cd7563a14.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_137_JPEG.rf.cbd2b551fee85a37d9b2d80c31557021.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_137_JPEG.rf.dc1778c807a2bd16dd59a23fe9969718.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_154_JPEG.rf.d0b6624b541f410eb222464c8a9af16e.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_154_JPEG.rf.d03c4551f3e6d58dc4ef09bdacf8aae0.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_238_JPEG.rf.76c4fe7ae8f9a48bc2182afcd8d643f5.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_238_JPEG.rf.c11c6aaf4cd5bf33a50759e01e4dc681.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_260_JPEG.rf.bbf2fc8d2cdac4a037d192e19a3d0cd7.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_260_JPEG.rf.91c1bf3315aa711bb8ee6a756e41087a.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video16_661_JPEG.rf.cfce5e86ff858306d52c587e50d4ee75.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video16_661_JPEG.rf.921d9a5e729ad11d486db2fda3142ec5.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_1156_JPEG.rf.c8f12f43e4e4a7969720618df27bb410.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1156_JPEG.rf.744bde0e59e2a5485e0a2da36253f08e.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_1157_JPEG.rf.09abb2ed0cbc9b1b6806d26b74092d96.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1157_JPEG.rf.0edeac4486d13dc9512cf5ce5c25df4c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_1177_JPEG.rf.014c5d55cfe2a60b9f9d71cb15dcc438.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1177_JPEG.rf.c9bf935bb22eb9142a1b4a33021a9205.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_1243_JPEG.rf.3caa4ee1710399a02794bdc77751f2cd.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_1243_JPEG.rf.fb0e19cab0752969d7ad7abbcb20ce13.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_725_JPEG.rf.630df5d0fcc77d568ce22dae8338f4b8.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_725_JPEG.rf.b512c61ce173e92c01f4661369a4a0ec.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_818_JPEG.rf.23858572925fe1fc81a50acb04e4ce75.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_818_JPEG.rf.6235d2fa3e03e62bdd2a06a3987d9d18.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_835_JPEG.rf.e4b171fbaf3596d0ab1162ec24b4a4d4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_835_JPEG.rf.9ef8774bce9c95287103873ea436bc71.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_885_JPEG.rf.2205c807f8f4302cd71f8333a128eec6.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_885_JPEG.rf.9b8df5162621c0fb36701e68bc27e6f1.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video17_956_JPEG.rf.971ec23bc7986fb6f32a4c759eaa5971.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video17_956_JPEG.rf.eb2e57cab7d23573e3f9d91b938e654b.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1617_JPEG.rf.8c8f83b5f593c48195e1d9165737d7f4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1617_JPEG.rf.24ae57f029ed398f60e4df69cee8c992.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1628_JPEG.rf.bd1acaada1982fd17321986b8c1ea9f4.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1628_JPEG.rf.c64a932477bd825e99fa23a56685acc3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1633_JPEG.rf.55a24b53e8296ab189fe920e5472811b.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1633_JPEG.rf.b94512b97720efc9bb1344374b876b70.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1634_JPEG.rf.1c00647911dcc07507d437fb20853100.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1634_JPEG.rf.9e8ae1d48b045fcaa4b8b208cdc304c3.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1635_JPEG.rf.f926183d3c0d531bc9deb6b3ce09d5fa.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1635_JPEG.rf.ed0acf71b299c2629ea99be381f32524.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_1711_JPEG.rf.9e69c1697e70f18f1fd39e9d63b87937.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_1711_JPEG.rf.c52cecdfdc663d9ee18649ed8c7ba425.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2043_JPEG.rf.e7392a642895e1a658f8ad0226948f24.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2043_JPEG.rf.67de3ed6f96b0277bc4cc858a769cf76.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2050_JPEG.rf.721dbafbecc428a04cc2f02df3a53f15.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2050_JPEG.rf.33dc214d1b8ee69b5769aa130ebabebf.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2055_JPEG.rf.397dee655213e594eacb7cb087352fff.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2055_JPEG.rf.b304dbb62644894250cd72d2b888414c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2056_JPEG.rf.55130f97332151733cb6cbc08351d409.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2056_JPEG.rf.1e87033eba44ae3ccbfdda751d70dd4f.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2721_JPEG.rf.45778d5548813493217a8515f356963f.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2721_JPEG.rf.165fb705fb62cd1def275b4510071952.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video18_2946_JPEG.rf.cda8cd11e9b115d3d4cb765965c41469.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video18_2946_JPEG.rf.d90f649d0e830a418e574c3dc644a64c.jpg"
+      }
+    ],
+    [
+      {
+        "split": "val",
+        "name": "multirotor_video19_2122_JPEG.rf.8506818703412b3a17e3dff9ae05753c.jpg"
+      },
+      {
+        "split": "test",
+        "name": "multirotor_video19_2122_JPEG.rf.c307f6151509892c52d03e61503e22f7.jpg"
+      }
+    ]
+  ],
+  "novel_perceptual_overlap_candidates": [
+    {
+      "train": "fixed_wing_a--178-_jpg.rf.2748d38137de6a358ffbb8cf7eb0ebae.jpg",
+      "other": "fixed_wing_a--67-_jpg.rf.6fddf79b3066ae197c2f885231b77a7a.jpg",
+      "split": "val",
+      "dhash_distance": 0
+    },
+    {
+      "train": "fixed_wing_a--302-_jpg.rf.08d5b303f4ab2673bc2ec4595632d1e1.jpg",
+      "other": "fixed_wing_a--93-_jpg.rf.595026705e1b2f959c92fd3ca9230dff.jpg",
+      "split": "test",
+      "dhash_distance": 3
+    }
+  ]
+}

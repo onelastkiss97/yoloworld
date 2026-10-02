@@ -1,0 +1,36 @@
+{
+  "variant": "tensorrt_fp16_graph",
+  "test_images": 938,
+  "metrics": {
+    "multirotor drone": {
+      "mAP": 0.5115674721899639,
+      "AP50": 0.9526065025130019,
+      "AP75": 0.5214639198227302,
+      "mAP_s": 0.35115064593083417,
+      "mAP_m": 0.5180970935188757,
+      "mAP_l": 0.6255994642866965
+    },
+    "helicopter": {
+      "mAP": 0.5664801512986767,
+      "AP50": 0.9584540141293939,
+      "AP75": 0.5379647332999565,
+      "mAP_s": null,
+      "mAP_m": 0.03333333333333333,
+      "mAP_l": 0.5684483228565284
+    },
+    "fixed-wing aircraft": {
+      "mAP": 0.3113021381516688,
+      "AP50": 0.798858791701801,
+      "AP75": 0.16580932628981246,
+      "mAP_s": null,
+      "mAP_m": 0.5138613861386139,
+      "mAP_l": 0.2915219413879239
+    }
+  },
+  "source_checkpoint": "/home/songziqi/project/YOLO-World/openworld_2/runs/neck_5shot_85544/best_coco_fixedwing_ap50_iter_400.pth",
+  "max_dets": [
+    1,
+    10,
+    100
+  ]
+}

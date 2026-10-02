@@ -1,0 +1,27 @@
+{
+  "checkpoint": "/home/songziqi/project/YOLO-World/openworld_1/fixedwing_adapt/runs/neck_10shot_85512/best_coco_fixedwing_ap50_iter_500.pth",
+  "test_dir": "/home/songziqi/project/YOLO-World/openworld_1/fixedwing_adapt/test_results/neck_10shot_85512",
+  "selection": "maximum fixedwing AP50 on original val; never selected on test",
+  "novel_training_images": 10,
+  "novel_training_instances": 10,
+  "extra_novel_validation_images": 55,
+  "test_images": 938,
+  "historical_baseline_ap50": 0.395,
+  "target_ap50": 0.55,
+  "fixedwing_ap50": 0.8299127474501491,
+  "target_met": true,
+  "metrics": {
+    "coco/multirotor drone_precision": 0.539,
+    "coco/helicopter_precision": 0.585,
+    "coco/fixed-wing aircraft_precision": 0.348,
+    "coco/bbox_mAP": 0.491,
+    "coco/bbox_mAP_50": 0.913,
+    "coco/bbox_mAP_75": 0.471,
+    "coco/bbox_mAP_s": 0.342,
+    "coco/bbox_mAP_m": 0.373,
+    "coco/bbox_mAP_l": 0.523,
+    "coco/multirotor_drone_ap50": 0.9529050105505419,
+    "coco/helicopter_ap50": 0.9551157637270524,
+    "coco/fixedwing_ap50": 0.8299127474501491
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "novel_unique_images": 5,
+  "novel_unique_instances": 5,
+  "support": [
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--300-_jpg.rf.e2736af3c5726244152596e09b7aa4fe.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--246-_jpg.rf.9e86a73fa5e122ad6c40c01033b32f4a.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--272-_jpg.rf.a4180a9277647c7b468137aabb2978b6.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--147-_jpg.rf.547f3ca1227753f3c99f903da076d652.jpg",
+    "/home/songziqi/project/Data/openworld_base/train/images/fixed_wing_a--200-_jpg.rf.5e9e1a45e3ceec64063205d7b9edbc78.jpg"
+  ],
+  "selection": "first five of the previously frozen 10-shot support, no test-based selection",
+  "seed": 20260912,
+  "support_repetitions": 8,
+  "base_replay_unique_images": 40,
+  "validation": "original val; 55 extra labeled novel images authorized",
+  "test": "original 938-image three-class test",
+  "initialization": "original base epoch100 checkpoint, NOT the 10-shot checkpoint"
+}
